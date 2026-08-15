@@ -48,6 +48,10 @@
        color:var(--charcoal); background:var(--gold); border-radius:6px; padding:1px 7px; margin-left:8px; vertical-align:middle}
   .tag.rust{background:var(--rust-soft); color:#fff}
   .exp{display:inline-flex; align-items:center; justify-content:center; width:15px; height:15px; font-size:9px; font-weight:700; color:#171216; background:#b7ada0; border-radius:3px; margin-left:8px; vertical-align:middle}
+  details.veil summary{list-style:none; cursor:pointer; padding:12px; margin:2px 0; border-radius:10px; color:var(--rust-soft); font-size:12.5px; letter-spacing:.03em; border:1px dashed rgba(224,112,63,.5); background:rgba(224,112,63,.06); user-select:none}
+  details.veil summary::-webkit-details-marker{display:none}
+  details.veil summary:hover{background:rgba(224,112,63,.12)}
+  details.veil[open] summary{opacity:.6; font-style:italic; border-style:solid}
   .note{font-family:"Caveat", ui-rounded, cursive; color:var(--rust-soft); font-size:20px; margin-left:8px}
   .liner{margin-top:40px; background:rgba(0,0,0,.25); border-left:3px solid var(--rust); border-radius:0 12px 12px 0; padding:18px 22px}
   .liner .ph{color:var(--muted); font-style:italic; font-size:14px}
@@ -77,7 +81,7 @@
   <h2>The run</h2>
   <ol>
     <a class="trk" href="https://open.spotify.com/track/76wJIkA63AgwA92hUhpE2V" target="_blank"><span class="num">01</span><span class="body"><div class="title">Me Against the World <span class="exp" title="Explicit">E</span></div><div class="meta">2Pac ft. Dramacydal · 1995</div></span><span class="time">12:16a</span></a>
-    <a class="trk" href="https://open.spotify.com/track/0zLClc0emc6qUeV1p5nc99" target="_blank"><span class="num">02</span><span class="body"><div class="title">No More Parties in LA <span class="exp" title="Explicit">E</span></div><div class="meta">Kanye West ft. Kendrick Lamar · 2016</div></span><span class="time">12:58a</span></a>
+    <details class="veil"><summary>⚠ Hidden — the hard-to-defend one. Tap to reveal.</summary><a class="trk" href="https://open.spotify.com/track/0zLClc0emc6qUeV1p5nc99" target="_blank"><span class="num">02</span><span class="body"><div class="title">No More Parties in LA <span class="exp" title="Explicit">E</span></div><div class="meta">Kanye West ft. Kendrick Lamar · 2016</div></span><span class="time">12:58a</span></a></details>
     <a class="trk" href="https://open.spotify.com/track/3FlAn1llotVysDC7KVIlgB" target="_blank"><span class="num">03</span><span class="body"><div class="title">As Far As I Can See</div><div class="meta">Phantogram · Eyelid Movies · 2009</div></span><span class="time">1:08a</span></a>
     <a class="trk" href="https://open.spotify.com/track/15kc3DJyYixeEEq5kRRrOm" target="_blank"><span class="num">04</span><span class="body"><div class="title">Break It Down Again <span class="tag">seeded the radio</span></div><div class="meta">Tears for Fears · 1993</div></span><span class="time">1:19a</span></a>
     <a class="trk" href="https://open.spotify.com/track/4jhsuQCUCJKA5f0bXb6XdJ" target="_blank"><span class="num">05</span><span class="body"><div class="title">It's My Life</div><div class="meta">Talk Talk · 1984</div></span><span class="time">1:24a</span></a>
